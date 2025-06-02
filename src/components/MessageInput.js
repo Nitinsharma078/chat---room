@@ -12,7 +12,7 @@ export default function MessageInput({ onSend }) {
   };
 
   return (
-    <Box p={2} display="flex" gap={1}>
+    <Box  display="flex" gap={1}>
       <TextField
         fullWidth
         value={value}

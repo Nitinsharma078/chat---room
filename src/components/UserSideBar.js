@@ -5,7 +5,7 @@ export default function UserSidBar({ users, onLogout, username }) {
   console.log('Connected Users====>', users);
 
   return (
-    <Box  bgcolor="#f5f5f5" p={2}  display="flex" flexDirection="column" justifyContent="space-between">
+    <Box  bgcolor="#f5f5f5" p={2}  display="flex" height="90vh"flexDirection="column" justifyContent="space-between">
       <Box>
         <Typography variant="h6" gutterBottom>
           Logged in as: @{username}

@@ -46,7 +46,7 @@ export default function Chat() {
 
   return (
     <Grid container height="90vh" gap={6} justifyContent="center" alignItems="flex-start">
-      <Grid item xs={3} bgcolor="#f5f5f5">
+      <Grid item xs={3} width="25%" bgcolor="#f5f5f5">
         <UserSidBar
           users={users}
           username={username}
@@ -56,7 +56,7 @@ export default function Chat() {
           }}
         />
       </Grid>
-      <Grid item xs={9} width="80%" display="flex" flexDirection="column">
+      <Grid item xs={9} width="70%" display="flex" flexDirection="column">
         <Paper elevation={3} style={{ flex: 1, margin: 10, padding: 10, overflow: 'auto' }}>
           <ChatBox messages={messages} />
         </Paper>
